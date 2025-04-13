@@ -87,7 +87,7 @@ st.info("Data loaded successfully.")
 
 # Streamlit UI
 st.title("Vet Finder")
-st.write("Enter a query to find veterinarians, such as 'Top vets in Chennai' or 'Vets with high ratings in Madurai'.")
+st.write("Enter a query to find veterinarians, such as 'Vets with high ratings in Madurai'.")
 
 query = st.text_input("Enter your query")
 top_k = st.slider("Number of vets to display", min_value=1, max_value=10, value=3)
